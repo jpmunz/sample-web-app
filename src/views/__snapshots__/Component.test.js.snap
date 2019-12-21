@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Request failed 1`] = `
+<DocumentFragment>
+  <div>
+    Some error: failed
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Request in progress 1`] = `
+<DocumentFragment>
+  <div
+    class="spinner-border text-primary"
+    role="status"
+  >
+    <span
+      class="sr-only"
+    >
+      Loading...
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`With a route id 1`] = `
+<DocumentFragment>
+  <div
+    class="Component"
+  >
+    <div>
+      Got here from: /foo/22
+    </div>
+    <div>
+      FooServerValue: foo server value
+    </div>
+    <div>
+      FooValue: foo value
+    </div>
+    <div
+      class="input-group"
+    >
+      <label
+        class="form-label"
+        for="foo-value-input"
+      >
+        Foo value
+      </label>
+      <input
+        aria-label="Foo value"
+        class="form-control"
+        id="foo-value-input"
+        placeholder="foo value"
+        type="text"
+        value=""
+      />
+      <div
+        class="input-group-append"
+      >
+        <button
+          class="btn btn-secondary"
+          type="button"
+        >
+          Update Foo Value
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
